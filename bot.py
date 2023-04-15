@@ -258,7 +258,7 @@ async def approver(event):
         await bot.send_message(
             event.user_id,
             chat_welcome.format(name=who.first_name, chat=chat_.title, dn=dn),
-            buttons=Button.url("Join Now", url="https://t.me/+fzvP2uH_rrRhNDQ0"),
+            buttons=Button.url("^_^", url="https://t.me/AboutAadhi"),
         )
     with contextlib.suppress(errors.rpcerrorlist.UserAlreadyParticipantError):
         await bot(
